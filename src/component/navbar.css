@@ -1,0 +1,112 @@
+.Background-Home {
+  background-image: url('../assets/image/Background-Home.jpg');
+  width: 100%;
+  height: 800px;
+  /* Tinggi gambar untuk tampilan desktop */
+
+  /* Menetapkan posisi latar belakang ke tengah */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Media query untuk tampilan mobile */
+  @media (max-width: 768px) {
+    width: auto;
+    height: 400px;
+    /* Tinggi gambar untuk tampilan mobile */
+    background-position: center top;
+    /* Mengatur posisi latar belakang ke atas agar objek tetap terlihat di tengah */
+  }
+}
+
+.DisplayCol {
+  display: flex;
+  justify-content: start;
+  height: 250px;
+  padding-left: 40px;
+}
+
+.IconNav1 {
+  max-width: 60px;
+  width: 100%;
+  height: 30px;
+}
+
+
+@media (max-width: 768px) {
+  .IconNav1 {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .DisplayCol {
+    justify-content: start;
+    padding: 0 20px;
+    height: 100px;
+  }
+}
+
+.Border-Navbar {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  width: 550px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 5px;
+  margin-left: 10px;
+}
+
+.Text-Navbar {
+  color: #ffff;
+  font-size: 18px;
+  margin: 13px 25px;
+}
+
+
+@media (max-width: 768px) {
+  .Border-Navbar {
+    width: 100%;
+    /* Lebar 100% untuk responsif mobile */
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-right: 30px;
+    border-radius: 5px;
+    /* justify-content: flex-start; */
+  }
+
+  .Text-Navbar {
+    font-size: 10px;
+    margin: 7px 5px;
+  }
+}
+
+
+.IconNavbar {
+  width: 40px !important;
+  height: 40px !important;
+  margin: 3px 15px;
+}
+
+@media (max-width: 768px) {
+  .IconNavbar {
+    width: auto !important;
+    height: 25px !important;
+    margin: 0px 5px;
+  }
+}
+
+.Text-Portofolio {
+  color: #ffff;
+  font-size: 40px;
+  margin-top: 55px;
+}
+
+@media (max-width: 768px) {
+  .Text-Portofolio {
+    font-size: 20px;
+    margin: 50px 0;
+  }
+}
