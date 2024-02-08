@@ -20,9 +20,9 @@ function Navbar() {
                     </Col>
                     <Col span={12} style={{ display: 'flex', justifyContent: 'center'}}>
                         <div className='Border-Navbar'>
-                            <p className='Text-Navbar'>Home</p>
-                            <p className='Text-Navbar'>Project</p>
-                            <p className='Text-Navbar'>Contact</p>
+                            <a href='#' className='Text-Navbar'>Home</a>
+                            <a href='/Experience' className='Text-Navbar'>Project</a>
+                            <a href='#' className='Text-Navbar'>Contact</a>
                             <Image src={IconGithub} className='IconNavbar mt-10' alt='Icon-Github'/>
                             <Image src={IconLinkedln} className='IconNavbar mt-10' alt='Icon-Linkedln' />
                         </div>

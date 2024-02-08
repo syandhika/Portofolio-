@@ -1,0 +1,43 @@
+.Background-Experience {
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+}
+
+@media (max-width:768px) {
+    .Background-Homepage {
+        width: auto;
+        height: auto;
+    }
+}
+
+.Border-Experience {
+    border: 1px 0px solid hitam;
+    border-radius: 10px;
+    margin: 30px;
+    width: 1444px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to bottom, #0D6393 0%, transparent 90%)
+}
+
+.Border-Bot-Experience {
+    border: 1px 0px solid hitam;
+    border-radius: 10px;
+    margin: 30px;
+    width: 1444px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to top, #0D6393 0%, transparent 90%)
+}
+
+.Text-Experience {
+    color: #ffff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.Work-Experience{
+    color: #ffff;
+    padding-top: 30px;
+}

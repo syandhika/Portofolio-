@@ -1,0 +1,133 @@
+.Text-Bot-Nav {
+    color: #1C7CB2;
+    font-size: 18px;
+}
+
+.Text-AboutMe {
+    color: #ffff;
+    font-size: 25px;
+}
+
+.Border-AboutMe {
+    border: 1px 0px solid hitam;
+    border-radius: 10px;
+    margin: 30px;
+    width: 1444px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to bottom, #0D6393 0%, transparent 90%) ;
+}
+
+.Border-Button {
+    border: 1px 0px solid hitam;
+    border-radius: 10px;
+    margin: 30px;
+    width: 1444px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to top, #0D6393 0%, transparent 90%) ;
+}
+
+.Text-Name{
+    color: #ffff;
+    font-size: 16px;
+    padding: 5px 20px;
+    text-align: center; 
+}
+
+/* @media (max-width: 768px) {
+    .Text-Bot-Nav{
+        font-size: 14px;
+    }
+
+    .Text-AboutMe{
+        font-size: 14px;
+    }
+
+    .Border-AboutMe {
+        width: auto;
+        height: 75px;
+        background-color: rgba(0, 0, 0, 0.4);
+        background: linear-gradient(to bottom, #0D6393 0%, transparent 85%) ;
+    }
+
+    .Text-Name{
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+} */
+
+.Image-Me{
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 30px !important;
+    padding: 10px 20px;
+}
+
+.Text-RelevantSkills{
+    color: #ffff;
+    margin-bottom: 20px;
+    margin: 10px 40px;
+    font-size: 18px; 
+}
+
+.Text-Education{
+    color: #ffff;
+    margin-bottom: 20px;
+    margin: 10px 60px;
+    font-size: 18px; 
+}
+
+.Icon-School{
+    width: 60px !important;
+    height: 60px !important;
+    margin-top: 2px;
+}
+
+.Icon-Coursera{
+    width: 40px !important;
+    height: 40px !important;
+    margin: 10px 10px;
+
+}
+
+.Text-Skills {
+    color: #ffff;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+
+/* class bebas  */
+
+.font14{
+    font-size: 14px;
+}
+
+.font16{
+    font-size: 16px;
+}
+
+.font18{
+    font-size: 18px;
+}
+
+.colorwhite{
+    color: #ffff;
+}
+
+.colorblue{
+    color: #1C7CB2;
+}
+
+.list-style-type{
+    list-style-type: disc;
+}
+
+.p-2{
+    padding: 2px;
+}
+
+.mt5{
+    margin-top: 5px;
+}
