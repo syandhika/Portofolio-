@@ -4,12 +4,12 @@
     height: 1000px;
 }
 
-@media (max-width:768px) {
+/* @media (max-width:768px) {
     .Background-Homepage {
         width: auto;
         height: auto;
     }
-}
+} */
 
 .Border-Experience {
     border: 1px 0px solid hitam;
