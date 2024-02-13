@@ -3,7 +3,7 @@ import { Row, Col } from 'antd'
 import Navbar from '../component/navbar'
 import '../containers/Homepage.css'
 import AboutMe from '../component/AboutMe/AboutMe.js'
-import ButtonAboutMe from '../component/AboutMe/Button.js'
+import WorkExperience from '../component/WorkExperience.js'
 
 function Homepage() {
   
@@ -28,7 +28,9 @@ function Homepage() {
           <Col span={24}><AboutMe /></Col>
         </Row>
         <Row>
-          <Col span={24} style={{ display: 'flex', justifyContent: 'end', right: '230px'}}><ButtonAboutMe /></Col>
+            <Col span={24} >
+              <WorkExperience />
+            </Col>
         </Row>
       </div>
     </>

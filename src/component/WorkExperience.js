@@ -31,7 +31,7 @@ const WorkExperience = ({ }) => {
     }
 
     return (
-        <div className='Background-Experience'>
+        <div className='Background-Experience' id='workExperience'>
             <Row>
                 <Col span={24} style={{
                     display: 'flex',
@@ -69,7 +69,6 @@ const WorkExperience = ({ }) => {
                             <li className='Text-Experience'>{TaskExperience.Task2}</li>
                             <li className='Text-Experience'>{TaskExperience.Task3}</li>
                             <li className='Text-Experience'>{TaskExperience.Task4}</li>
-                            <li className='Text-Experience'>{TaskExperience.Task4}</li>
                             <li className='Text-Experience'>{TaskExperience.Task5}</li>
                             <li className='Text-Experience'>{TaskExperience.Task6}</li>
                         </ul>
@@ -85,49 +84,6 @@ const WorkExperience = ({ }) => {
                 >
                     <div className='Border-Bot-Experience'>
                     </div>
-                </Col>
-            </Row>
-            <Row>
-                <Col span={24}
-                    style={{ 
-                        display: 'flex', 
-                        justifyContent: 'end', 
-                        right: '230px'
-                    }}
-                >
-                    <Button type="primary"
-                        style={{
-                            width: '200px',
-                            height: '40px',
-                            backgroundColor: '#1C7CB2',
-                            marginRight: '20px'
-                        }}
-                        onClick={handlePreviousPage}
-                    >
-                        <p
-                            style={{
-                                fontSize: '14px',
-                                color: '#ffff',
-                                margin: '0'
-                            }}
-                        >Previous Page</p>
-                    </Button>
-                    <Button type="primary"
-                        style={{
-                            width: '200px',
-                            height: '40px',
-                            backgroundColor: '#1C7CB2',
-                        }}
-                        onClick={handleNextPage}
-                    >
-                        <p
-                            style={{
-                                fontSize: '14px',
-                                color: '#ffff',
-                                margin: '0'
-                            }}
-                        >Next Pages</p>
-                    </Button>
                 </Col>
             </Row>
         </div>

@@ -1,5 +1,5 @@
 .Background-Home {
-  background-image: url('../assets/image/Background-Home.jpg');
+  background-image: url('../assets/image/BackgroundHome.png');
   width: 100%;
   height: 800px;
   /* Tinggi gambar untuk tampilan desktop */
@@ -30,6 +30,8 @@
   max-width: 60px;
   width: 100%;
   height: 30px;
+  border-radius: 15px;
+  margin-left: 20px;
 }
 
 
@@ -53,15 +55,17 @@
   border-radius: 20px;
   width: 550px;
   height: 50px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.2); /* White color with 20% opacity */
   padding-top: 5px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
+  margin-right: 40px;
 }
+
 
 .Text-Navbar {
   color: #ffff;
-  font-size: 18px;
-  margin: 13px 25px;
+  font-size: 16px;
+  margin: 0px 25px !important;
 }
 
 
