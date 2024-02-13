@@ -8,7 +8,38 @@
     font-size: 25px;
 }
 
-.Border-AboutMe {
+.Border-Open-Text-Aboutme {
+    border: 1px 0px solid hitam;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 1444px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to bottom, #0D6393 0%, transparent 90%) ;
+}
+
+
+.Border-Mid-Text-Aboutme {
+    border: 1px 0px solid hitam;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 0 20px;
+    width: 1444px;
+    height: 100px;
+}
+
+
+.Border-Close-Text-Aboutme {
+    border: 1px 0px solid hitam;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 1444px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to top, #0D6393 0%, transparent 90%) ;
+}
+
+.Border-Top-Skills {
     border: 1px 0px solid hitam;
     border-radius: 10px;
     margin: 30px;
@@ -18,7 +49,7 @@
     background: linear-gradient(to bottom, #0D6393 0%, transparent 90%) ;
 }
 
-.Border-Button {
+.Border-Bot-Skills {
     border: 1px 0px solid hitam;
     border-radius: 10px;
     margin: 30px;
@@ -31,8 +62,7 @@
 .Text-Name{
     color: #ffff;
     font-size: 16px;
-    padding: 5px 20px;
-    text-align: center; 
+    padding: 0 30px;
 }
 
 /* @media (max-width: 768px) {
