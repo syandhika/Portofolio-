@@ -1,0 +1,88 @@
+.Carousel {
+    /* margin: 0,
+    height: '160px',
+    color: '#fff',
+    lineHeight: '160px',
+    textAlign: 'center',
+    background: '#364d79', */
+    margin: 0;
+    width: 1444px !important;
+    height: 200px;
+    color: #ffff;
+    line-height: 160px;
+    text-align: center;
+    background: #364d79;
+}
+
+.custom-carousel {
+    .slick-prev {
+        button {
+            background-color: #1C7CB2;
+        }
+    }
+
+    .slick-next {
+        button {
+            background-color: green;
+        }
+    }
+
+    .slick-dots li {
+        button {
+            background-color: #1C7CB2;
+            height: 20px;
+        }
+    }
+}
+
+
+.Text-Project {
+    color: #ffff;
+    font-size: 25px;
+}
+
+.Text-Detail-Project {
+    color: #ffff;
+    font-size: 20px;
+    margin: 0;
+}
+
+.Text-Technology{
+    color: #ffff;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.Text-Web-Based {
+    color: #ffff;
+    font-size: 16px;
+    margin-top: 0px;
+    /* margin-bottom: 10px; */
+}
+
+.Border-Top-Project {
+    border: 1px 0px solid hitam;
+    border-radius: 10px;
+    margin: 30px;
+    width: 1444px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to bottom, #0D6393 0%, transparent 90%)
+}
+
+.Image-Project {
+    width: 1200px !important;
+    height: 600px !important;
+    display: none;
+}
+
+.Border-Bot-Project {
+    border: 1px 0px solid hitam;
+    border-radius: 10px;
+    margin: 30px;
+    width: 1444px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to top, #0D6393 0%, transparent 90%)
+}

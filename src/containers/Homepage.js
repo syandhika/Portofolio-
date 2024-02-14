@@ -4,6 +4,7 @@ import Navbar from '../component/navbar'
 import '../containers/Homepage.css'
 import AboutMe from '../component/AboutMe/AboutMe.js'
 import WorkExperience from '../component/WorkExperience.js'
+import Project from '../component/Project.js'
 
 function Homepage() {
   
@@ -31,6 +32,11 @@ function Homepage() {
             <Col span={24} >
               <WorkExperience />
             </Col>
+        </Row>
+        <Row>
+          <Col span={24} >
+            <Project />
+          </Col>
         </Row>
       </div>
     </>

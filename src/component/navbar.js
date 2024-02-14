@@ -26,7 +26,7 @@ function Navbar() {
                                 <li><Link to="workExperience" smooth={true} duration={500} className='Text-Navbar'>Experience</Link></li>
                             </ul>
                             <ul style={{ listStyle: 'none', padding: '0'}}>
-                                <li><Link to="aboutMe" smooth={true} duration={500} className='Text-Navbar'>Project</Link></li>
+                                <li><Link to="Project" smooth={true} duration={500} className='Text-Navbar'>Project</Link></li>
                             </ul>
                             <ul style={{ listStyle: 'none', padding: '0'}}>
                                 <li><Link to="aboutMe" smooth={true} duration={500} className='Text-Navbar'>Contact</Link></li>
