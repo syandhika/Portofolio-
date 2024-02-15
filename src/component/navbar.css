@@ -1,5 +1,5 @@
 .Background-Home {
-  background-image: url('../assets/image/BackgroundHome.png');
+  background-image: url('../assets/image/Background-Home.png');
   width: 100%;
   height: 800px;
   /* Tinggi gambar untuk tampilan desktop */
@@ -27,12 +27,23 @@
 }
 
 .IconNav1 {
-  max-width: 60px;
+  max-width: 70px;
   width: 100%;
-  height: 30px;
-  border-radius: 15px;
+  height: 60px;
+  margin-top: 10px;
   margin-left: 20px;
+  /* border: 1px solid rgba(0, 0, 0, 0.3); */
+  /* border-radius: 15px; */
+  /* animation: borderIcon 2s infinite;
+  animation-fill-mode: forwards; */
 }
+
+/* @keyframes borderIcon {
+  75% {
+    border-color: #1C7CB2;
+    border-radius: 15px;
+  }
+} */
 
 
 @media (max-width: 768px) {
@@ -48,18 +59,33 @@
   }
 }
 
+@keyframes moveBorder {
+  75% {
+    border-color: #1C7CB2;
+    border-radius: 15px;
+  }
+}
+
 .Border-Navbar {
   display: flex;
   justify-content: center;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
   border-radius: 20px;
-  width: 550px;
+  width: 650px;
   height: 50px;
-  background-color: rgba(255, 255, 255, 0.2); /* White color with 20% opacity */
+  background-color: rgba(0, 0, 0, 0.6);
   padding-top: 5px;
-  /* margin-left: 10px; */
   margin-right: 40px;
+  margin-top: 28px;
+  animation: moveBorder 2s infinite;
+  animation-fill-mode: forwards;
 }
+
+/* .Border-Navbar:hover {
+  border: 1px solid #1C7CB2;
+  background-color: rgba(28, 124, 178, 0.2)
+} */
+
 
 
 .Text-Navbar {
@@ -105,7 +131,7 @@
 .Text-Portofolio {
   color: #ffff;
   font-size: 40px;
-  margin-top: 55px;
+  margin-top: 80px;
 }
 
 @media (max-width: 768px) {

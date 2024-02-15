@@ -2,7 +2,8 @@ import React, { useEffect } from 'react';
 import { Col, Flex, Image, Row } from 'antd';
 import { Link } from 'react-scroll';
 import './navbar.css';
-import IconName from '../assets/icons/Icon-Name.jpeg'
+// import IconName from '../assets/icons/Icon-Name.jpeg'
+import IconDesign from '../assets/icons/Icon-design.png'
 
 function Navbar() {
 
@@ -15,7 +16,7 @@ function Navbar() {
                     }}
                 >
                     <Col span={12} className='DisplayCol'>
-                        <Image src={IconName} className='IconNav1' alt='Icon-Face' />
+                        <Image src={IconDesign} className='IconNav1' alt='Icon-Face' />
                     </Col>
                     <Col span={12} style={{ display: 'flex', justifyContent: 'end' }}>
                         <div className='Border-Navbar'>
@@ -29,14 +30,17 @@ function Navbar() {
                                 <li><Link to="Project" smooth={true} duration={500} className='Text-Navbar'>Project</Link></li>
                             </ul>
                             <ul style={{ listStyle: 'none', padding: '0'}}>
-                                <li><Link to="aboutMe" smooth={true} duration={500} className='Text-Navbar'>Contact</Link></li>
+                                <li><Link to="Certificate" smooth={true} duration={500} className='Text-Navbar'>Certificate</Link></li>
+                            </ul>
+                            <ul style={{ listStyle: 'none', padding: '0'}}>
+                                <li><Link to="Contact" smooth={true} duration={500} className='Text-Navbar'>Contact</Link></li>
                             </ul>
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col span={24} style={{ display: 'flex', justifyContent: 'center' }}>
-                        {/* <h1 className='Text-Portofolio'>My Portofolio</h1> */}
+                        <h1 className='Text-Portofolio'>Welcome to My Portofolio</h1>
                     </Col>
                 </Row>
             </div>
