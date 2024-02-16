@@ -1,4 +1,3 @@
-import React from 'react'
 import { Row, Col } from 'antd'
 import Navbar from '../component/navbar'
 import '../containers/Homepage.css'
