@@ -88,10 +88,10 @@
 } */
 
 .Image-Me{
-    width: 400px !important;
+    width: 350px !important;
     height: 400px !important;
     border-radius: 30px !important;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 .Text-RelevantSkills{

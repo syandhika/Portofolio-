@@ -1,0 +1,72 @@
+.Text-Contact{
+    color: #ffff;
+    margin-top: 10px;
+}
+
+.Border-Contact {
+    border: 1px 0px solid hitam;
+    border-radius: 10px;
+    margin: 30px;
+    width: 1444px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to bottom, #0D6393 0%, transparent 90%);
+    display: flex;
+    justify-content: center;
+}
+
+.Border-Bot-Contact {
+    border: 1px 0px solid hitam;
+    border-radius: 10px;
+    margin: 30px;
+    width: 1444px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(to top, #0D6393 0%, transparent 90%)
+}
+
+
+.text-ThankYou{
+    color: #ffff;
+    font-size: 18px;
+    padding: 20px 20px;
+}
+
+.text-Contact2{
+    color: #ffff;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+
+.Icon-Whatsapp{
+    width: 30px !important;
+    margin: 5px 10px;
+}
+
+.Icon-Email{
+    width: 40px !important;
+    margin: 8px 10px;
+}
+
+.Icon-Instagram{
+    width: 40px !important;
+    margin: 0px 10px;
+}
+
+.Icon-Linkedln{
+    width: 30px !important;
+    margin: 5px 10px;
+}
+
+.Icon-Github{
+    width: 35px !important;
+    margin: 5px 10px;
+}
+
+.Text-Thank-You-Contact{
+    color: #ffff;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+}

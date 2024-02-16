@@ -10,3 +10,13 @@
             height: auto;
         }
     }
+
+    .Text-Regards{
+        color: #ffff;
+        font-size: 18px;
+    }
+
+    .ml-250{
+        margin-left: 250px;
+        margin-bottom: 50px;
+    }

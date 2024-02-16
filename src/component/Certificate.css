@@ -36,12 +36,13 @@
 }
 
 
-.Text-Project {
+.Text-Certificate {
     color: #ffff;
     font-size: 25px;
+    margin-top: 40px;
 }
 
-.Text-Detail-Project {
+.Text-Name-Certificate {
     color: #ffff;
     font-size: 20px;
     margin: 0;
@@ -54,14 +55,14 @@
     margin-bottom: 0;
 }
 
-.Text-Web-Based {
+.Text-About-Certificate {
     color: #ffff;
     font-size: 16px;
     margin-top: 0px;
     /* margin-bottom: 10px; */
 }
 
-.Border-Top-Project {
+.Border-Top-Certificate {
     border: 1px 0px solid hitam;
     border-radius: 10px;
     margin: 30px;
@@ -71,13 +72,13 @@
     background: linear-gradient(to bottom, #0D6393 0%, transparent 90%)
 }
 
-.Image-Project {
+.Image-Certificate {
     width: 1200px !important;
     height: 600px !important;
     display: none;
 }
 
-.Border-Bot-Project {
+.Border-Bot-Certificate {
     border: 1px 0px solid hitam;
     border-radius: 10px;
     margin: 30px;

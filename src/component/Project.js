@@ -19,7 +19,9 @@ function Project() {
         </Row >
         <Row>
           <Col span={24} style={{ display: 'flex', justifyContent: 'center' }}>
-            <div className="Border-Top-Project"></div>
+            <div className="Border-Top-Project" style={{ display: 'flex', justifyContent: 'center' }} >
+              {/* <h1 className='Text-Project'>Project</h1> */}
+            </div>
           </Col>
         </Row>
         <Row>
