@@ -15,11 +15,11 @@ function AppRoutes() {
                 <Route path='/' element={<Homepage />} />
 
                 {/* Route Slider Component */}
-                <Route path='aboutme' element={<Element name="aboutMe"><AboutMe /></Element>} />
-                <Route path='workexperience' element={<Element name="workExperience"><WorkExperience /></Element>} />
-                <Route path='project' element={<Element name="Project"><Project /></Element>} />
-                <Route path='certificate' element={<Element name="Certificate"><Certificate /></Element>} />
-                <Route path='contact' element={<Element name="Contact"><Contact /></Element>} />
+                <Route path='/aboutme' element={<Element name="aboutMe"><AboutMe /></Element>} />
+                <Route path='/workexperience' element={<Element name="workExperience"><WorkExperience /></Element>} />
+                <Route path='/project' element={<Element name="Project"><Project /></Element>} />
+                <Route path='/certificate' element={<Element name="Certificate"><Certificate /></Element>} />
+                <Route path='/contact' element={<Element name="Contact"><Contact /></Element>} />
             </Routes>
         </BrowserRouter>
     );

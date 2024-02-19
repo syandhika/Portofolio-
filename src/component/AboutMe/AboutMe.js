@@ -7,7 +7,7 @@ import IconCoursera from '../../assets/icons/IconCoursera.png'
 function AboutMe() {
 
     const textAboutme = {
-        paragraf1: "As a dedicated Front End Developer, I master key skills like HTML, CSS, and JavaScript to create stunning user interfaces. With solid experience, I have successfully implemented responsive and aesthetic designs, focused on intuitive and efficient user experience. I always try to keep myself up to date with the latest developments in web technology, so as to deliver solutions that are innovative and in line with market demands. My good collaboration and communication skills enable me to work effectively in a team of developers and designers. I enjoy coming up with creative solutions to design challenges and responding quickly to changing project needs. With a focus on quality and detail, I am determined to provide an exceptional user experience, creating a frontend that is not only aesthetic, but also high-performance and compliant with industry standards.",
+        paragraf1: "As a dedicated Front End Developer, I master key skills like HTML, CSS, and JavaScript to create stunning user interfaces. With solid experience, I have successfully implemented responsive and aesthetic designs, focused on intuitive and efficient user experience. I always try to keep myself up to date with the latest developments in web technology, so as to deliver solutions that are innovative and in line with market demands. My good collaboration and communication skills enable me to work effectively in a team of developers and designers. I enjoy coming up with creative solutions to design challenges and responding quickly to changing project needs. With a focus on quality and detail, ",
     }
 
     const relevantSkills = {
@@ -132,4 +132,6 @@ function AboutMe() {
 }
 
 export default AboutMe;
+
+// I am determined to provide an exceptional user experience, creating a frontend that is not only aesthetic, but also high-performance and compliant with industry standards.
 
