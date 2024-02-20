@@ -1,5 +1,5 @@
 import '../AboutMe/AboutMe.css';
-import { Button, Col, Row, Image } from 'antd';
+import { Col, Row, Image } from 'antd';
 import ImageMe from '../../assets/image/MyImage.jpeg';
 import IconRPL from '../../assets/icons/IconRPL.png'
 import IconCoursera from '../../assets/icons/IconCoursera.png'
