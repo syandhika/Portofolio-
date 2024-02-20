@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
-import { Col, Flex, Image, Row } from 'antd';
+import React from 'react';
+import { Col, Image, Row } from 'antd';
 import { Link } from 'react-scroll';
 import './navbar.css';
-// import IconName from '../assets/icons/Icon-Name.jpeg'
 import IconDesign from '../assets/icons/Icon-design.png'
 
 function Navbar() {

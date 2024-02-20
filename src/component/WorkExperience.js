@@ -1,23 +1,8 @@
 import React from 'react'
-import { Row, Col, Button } from 'antd'
+import { Row, Col} from 'antd'
 import './WorkExperience.css'
-import { useNavigate } from 'react-router-dom'
 
 const WorkExperience = ({ }) => {
-
-    const navigate = useNavigate();
-
-    const handlePreviousPage = () => {
-        console.log('To the Next Page');
-        navigate('/');
-    }
-
-    const handleNextPage = () => {
-        console.log('To the Next Page');
-        navigate('/Project');
-    }
-
-    
 
     const TaskExperience = {
         TextExperience: "During my tenure as a Junior Frontend Developer at Thinkmatch, I have been actively involved in various projects, contributing to the enhancement of user interfaces and overall user experience.",
